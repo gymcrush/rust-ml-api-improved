@@ -1,3 +1,5 @@
 
 [package]
 name = "rust-machine-learning-api-example"
+version = "0.1.0"
+authors = ["vaaaaanquish <6syun9@gmail.com>"]
