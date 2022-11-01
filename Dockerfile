@@ -10,3 +10,4 @@ RUN apt update &&\
 
 # install libtorch=1.9.0
 # https://pytorch.org/get-started/locally/
+WORKDIR /
