@@ -7,3 +7,4 @@ services:
       context: .
     container_name: rustapi
     working_dir: /app
+    command: cargo run
