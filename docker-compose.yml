@@ -8,3 +8,7 @@ services:
     container_name: rustapi
     working_dir: /app
     command: cargo run
+    tty: true
+    volumes:
+      - ./:/app
+    ports:
