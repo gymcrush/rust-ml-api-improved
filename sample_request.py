@@ -16,3 +16,6 @@ def request_image(img):
 
 
 # get sample image
+print('get sample image from rust-lang.org')
+sample_image_response = requests.get('http://rust-lang.org/logos/rust-logo-128x128-blk.png')
+img = base64.b64encode(sample_image_response.content).decode('utf-8')
