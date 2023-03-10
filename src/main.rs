@@ -5,4 +5,4 @@ use std::net::SocketAddr;
 use std::sync::Arc;
 use tokio::sync::Mutex;
 use tch::nn::ModuleT;
-use tch::vision::{resnet, imagenet}
+use tch::vision::{resnet, imagenet};
