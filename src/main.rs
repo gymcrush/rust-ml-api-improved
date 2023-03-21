@@ -8,4 +8,4 @@ use tch::nn::ModuleT;
 use tch::vision::{resnet, imagenet};
 
 extern crate tch;
-extern crat
+extern crate base6
