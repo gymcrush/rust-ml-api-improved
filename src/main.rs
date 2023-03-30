@@ -11,4 +11,4 @@ extern crate tch;
 extern crate base64;
 extern crate image;
 
-struct D
+struct Dn
