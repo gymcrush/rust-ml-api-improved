@@ -11,4 +11,5 @@ extern crate tch;
 extern crate base64;
 extern crate image;
 
-struct DnnModel 
+struct DnnModel {
+ 
