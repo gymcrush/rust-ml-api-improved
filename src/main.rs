@@ -12,4 +12,4 @@ extern crate base64;
 extern crate image;
 
 struct DnnModel {
-    net:
+    net: Mu
