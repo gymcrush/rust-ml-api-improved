@@ -12,4 +12,6 @@ extern crate base64;
 extern crate image;
 
 struct DnnModel {
-    net: Mutex<Box<dyn ModuleT>
+    net: Mutex<Box<dyn ModuleT>>
+}
+
