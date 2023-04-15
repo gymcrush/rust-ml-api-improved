@@ -15,4 +15,4 @@ struct DnnModel {
     net: Mutex<Box<dyn ModuleT>>
 }
 
-#[tokio:
+#[tokio::
