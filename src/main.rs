@@ -16,4 +16,4 @@ struct DnnModel {
 }
 
 #[tokio::main]
-async fn ma
+async fn main
