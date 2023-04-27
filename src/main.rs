@@ -17,4 +17,4 @@ struct DnnModel {
 
 #[tokio::main]
 async fn main() {
-    let wei
+    let weight
