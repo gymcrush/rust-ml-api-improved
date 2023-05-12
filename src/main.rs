@@ -17,4 +17,4 @@ struct DnnModel {
 
 #[tokio::main]
 async fn main() {
-    let weights = std::path::Path::new("/resnet18.ot")
+    let weights = std::path::Path::new("/resnet18.ot"); 
