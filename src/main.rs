@@ -18,4 +18,4 @@ struct DnnModel {
 #[tokio::main]
 async fn main() {
     let weights = std::path::Path::new("/resnet18.ot"); 
-    let mut vs = tch::nn::VarStore::new(tch::Device::C
+    let mut vs = tch::nn::VarStore::new(tch::Device::Cpu)
