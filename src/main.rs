@@ -21,4 +21,4 @@ async fn main() {
     let mut vs = tch::nn::VarStore::new(tch::Device::Cpu);
     let net:Mutex<Box<(dyn ModuleT + 'static)>> = Mutex::new(Box::new(resnet::resnet18(&vs.root(), imagenet::CLASS_COUNT)));
     let _ = vs.load(weights);
-    let state
+    let state = 
