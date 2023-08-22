@@ -23,4 +23,4 @@ async fn main() {
     let _ = vs.load(weights);
     let state = Arc::new(DnnModel { net });
 
-    let
+    let a
