@@ -23,4 +23,5 @@ async fn main() {
     let _ = vs.load(weights);
     let state = Arc::new(DnnModel { net });
 
-    let app = Router::new
+    let app = Router::new()
+  
