@@ -24,4 +24,4 @@ async fn main() {
     let state = Arc::new(DnnModel { net });
 
     let app = Router::new()
-        .route("/", post
+        .route("/", post(pr
