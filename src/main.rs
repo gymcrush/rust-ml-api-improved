@@ -25,4 +25,4 @@ async fn main() {
 
     let app = Router::new()
         .route("/", post(proc))
-        .layer(AddExtensionLayer::new(state))
+        .layer(AddExtensionLayer::new(state));
