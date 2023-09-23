@@ -28,4 +28,4 @@ async fn main() {
         .layer(AddExtensionLayer::new(state));
 
     let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
-    print
+    println!("
