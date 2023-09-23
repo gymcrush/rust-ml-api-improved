@@ -27,4 +27,5 @@ async fn main() {
         .route("/", post(proc))
         .layer(AddExtensionLayer::new(state));
 
-    let addr = SocketAddr::from(([0, 0, 0, 0], 300
+    let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
+ 
