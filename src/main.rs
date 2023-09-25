@@ -28,4 +28,4 @@ async fn main() {
         .layer(AddExtensionLayer::new(state));
 
     let addr = SocketAddr::from(([0, 0, 0, 0], 3000));
-    println!("listening on
+    println!("listening on {}", a
