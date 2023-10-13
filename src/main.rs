@@ -35,4 +35,4 @@ async fn main() {
         .unwrap();
 }
 
-#[deri
+#[derive(
