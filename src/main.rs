@@ -35,4 +35,4 @@ async fn main() {
         .unwrap();
 }
 
-#[derive(Deser
+#[derive(Deseriali
