@@ -36,4 +36,5 @@ async fn main() {
 }
 
 #[derive(Deserialize)]
-struct RequestJso
+struct RequestJson {
+ 
