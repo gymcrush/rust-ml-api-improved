@@ -36,4 +36,4 @@ async fn main() {
 }
 
 #[derive(Deserialize)]
-struct
+struct Req
