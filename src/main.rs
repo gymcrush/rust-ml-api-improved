@@ -37,4 +37,4 @@ async fn main() {
 
 #[derive(Deserialize)]
 struct RequestJson {
-    img: Stri
+    img: String,
