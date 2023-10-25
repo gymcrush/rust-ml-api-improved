@@ -40,4 +40,4 @@ struct RequestJson {
     img: String,
 }
 
-#[de
+#[deri
