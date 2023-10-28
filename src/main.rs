@@ -40,4 +40,5 @@ struct RequestJson {
     img: String,
 }
 
-#[derive(Serialize
+#[derive(Serialize)]
+s
