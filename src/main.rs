@@ -41,4 +41,4 @@ struct RequestJson {
 }
 
 #[derive(Serialize)]
-str
+struc
