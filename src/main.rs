@@ -42,4 +42,4 @@ struct RequestJson {
 
 #[derive(Serialize)]
 struct ResponseJson {
-    resu
+    result:
