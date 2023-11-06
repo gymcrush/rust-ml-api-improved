@@ -43,3 +43,5 @@ struct RequestJson {
 #[derive(Serialize)]
 struct ResponseJson {
     result: Vec<String>,
+}
+
