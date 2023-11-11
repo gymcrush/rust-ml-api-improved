@@ -45,4 +45,4 @@ struct ResponseJson {
     result: Vec<String>,
 }
 
-async fn proc(Json(payload): Json<Request
+async fn proc(Json(payload): Json<RequestJson>,
