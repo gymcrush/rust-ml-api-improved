@@ -46,4 +46,4 @@ struct ResponseJson {
 }
 
 async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<DnnModel>>) -> Json<Value> {
-    let n
+    let net 
