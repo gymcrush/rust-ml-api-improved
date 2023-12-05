@@ -48,4 +48,4 @@ struct ResponseJson {
 async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<DnnModel>>) -> Json<Value> {
     let net = state.net.lock().await;
 
-    let img_buffer = base6
+    let img_buffer = base64:
