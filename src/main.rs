@@ -51,4 +51,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
     let img_buffer = base64::decode(&payload.img).unwrap();
     let img = image::load_from_memory(&img_buffer.as_slice()).unwrap();
 
-    // to use
+    // to use loa
