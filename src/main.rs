@@ -52,4 +52,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
     let img = image::load_from_memory(&img_buffer.as_slice()).unwrap();
 
     // to use load_image_and_resize224_from_memory next version tch-rs
- 
+    l
