@@ -53,4 +53,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
 
     // to use load_image_and_resize224_from_memory next version tch-rs
     let _ = img.save("/tmp.jpeg");
-    let img_te
+    let img_tenso
