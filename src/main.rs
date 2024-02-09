@@ -56,4 +56,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
     let img_tensor = imagenet::load_image_and_resize224("/tmp.jpeg").unwrap();
     let output = net
         .forward_t(&img_tensor.unsqueeze(0), false)
-        
+        .so
