@@ -58,4 +58,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
         .forward_t(&img_tensor.unsqueeze(0), false)
         .softmax(-1, tch::Kind::Float);
 
-    let mut result = Vec::new
+    let mut result = Vec::new();
