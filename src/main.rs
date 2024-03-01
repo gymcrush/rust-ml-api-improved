@@ -59,4 +59,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
         .softmax(-1, tch::Kind::Float);
 
     let mut result = Vec::new();
-    for (probability, class) in imagenet::top(&output, 5).iter() 
+    for (probability, class) in imagenet::top(&output, 5).iter() {
