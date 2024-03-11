@@ -60,4 +60,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
 
     let mut result = Vec::new();
     for (probability, class) in imagenet::top(&output, 5).iter() {
-        result.push(format!("{:50} {:5.2}%", class, 100.0 * probabil
+        result.push(format!("{:50} {:5.2}%", class, 100.0 * probabilit
