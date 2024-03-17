@@ -63,3 +63,5 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
         result.push(format!("{:50} {:5.2}%", class, 100.0 * probability).to_string());
     }
     Json(json!({ "result": result }))
+}
+
