@@ -62,4 +62,4 @@ async fn proc(Json(payload): Json<RequestJson>, Extension(state): Extension<Arc<
     for (probability, class) in imagenet::top(&output, 5).iter() {
         result.push(format!("{:50} {:5.2}%", class, 100.0 * probability).to_string());
     }
-    Json(json!({ "result": res
+    Json(json!({ "result": resu
