@@ -8,3 +8,6 @@ Please note, this is a fork from a base project not owned by gymcrush. For the o
 
 # Usage
 ```rust
+docker compose up -d --build
+python sample_request.py
+```
